@@ -1,0 +1,30 @@
+{
+  "name": "weapp-runtime",
+  "version": "0.0.1",
+  "description": "实验性质的小程序web运行时",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeliex/weapp-runtime.git"
+  },
+  "keywords": [
+    "weapp",
+    "miniprogram",
+    "runtime"
+  ],
+  "author": "yeliex <yeliex@yeliex.com>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/yeliex/weapp-runtime/issues"
+  },
+  "homepage": "https://github.com/yeliex/weapp-runtime#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
