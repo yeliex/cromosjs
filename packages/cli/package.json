@@ -1,0 +1,29 @@
+{
+  "name": "@cromosjs/cli",
+  "version": "0.0.1",
+  "description": "简单的小程序跨平台解决方案",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "bin": {
+    "cromos": "./dist/bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeliex/cromosjs.git"
+  },
+  "author": "yeliex <yeliex@yeliex.com>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/yeliex/cromosjs/issues"
+  },
+  "homepage": "https://github.com/yeliex/cromosjs#readme",
+  "scripts": {
+    "start": "node --no-warnings --loader @swc-node/register/esm ./src/bin.ts",
+    "build": ""
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "yargs": "^17.7.2"
+  }
+}

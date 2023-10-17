@@ -1,0 +1,9 @@
+{
+    "compileOnSave": false,
+    "include": [],
+    "references": [
+        {"path": "packages/cli/tsconfig.json"},
+        {"path": "packages/compiler/tsconfig.json"},
+        {"path": "packages/core/tsconfig.json"}
+    ]
+}

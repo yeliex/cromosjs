@@ -1,30 +1,16 @@
 {
-  "compileOnSave": false,
-  "compilerOptions": {
-    "allowJs": false,
-    "allowSyntheticDefaultImports": true,
-    "charset": "utf8",
-    "checkJs": false,
-    "declaration": true,
-    "emitDecoratorMetadata": true,
-    "esModuleInterop": false,
-    "experimentalDecorators": true,
-    "forceConsistentCasingInFileNames": true,
-    "importHelpers": false,
-    "lib": [
-      "esnext"
-    ],
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "noImplicitAny": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "preserveConstEnums": true,
-    "pretty": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "sourceMap": true,
-    "strict": true,
-    "target": "es2019"
-  }
+    "extends": ["@tsconfig/strictest/tsconfig.json", "@tsconfig/node18/tsconfig.json"],
+    "compileOnSave": false,
+    "compilerOptions": {
+        "noEmit": true,
+        "isolatedModules": true,
+        "importsNotUsedAsValues": "error",
+        "esModuleInterop": true,
+        "verbatimModuleSyntax": true,
+        "useDefineForClassFields": true,
+        "noPropertyAccessFromIndexSignature": false,
+        "resolveJsonModule": true,
+        "exactOptionalPropertyTypes": false
+    },
+    "include": []
 }

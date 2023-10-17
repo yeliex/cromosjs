@@ -1,0 +1,27 @@
+{
+  "name": "@cromosjs/core",
+  "version": "0.0.1",
+  "description": "简单的小程序跨平台解决方案",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeliex/cromosjs.git"
+  },
+  "author": "yeliex <yeliex@yeliex.com>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/yeliex/cromosjs/issues"
+  },
+  "homepage": "https://github.com/yeliex/cromosjs#readme",
+  "scripts": {
+    "build": ""
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.31.17"
+  },
+  "devDependencies": {
+
+  }
+}
